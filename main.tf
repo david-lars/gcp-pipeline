@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "my-bucket" {
-  name          = "terraform-github-bucket"
+  name          = "terraform-github-bucket-test"
   project       = "cloudrun-github-dev"
   location      = "US"
   force_destroy = true
